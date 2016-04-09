@@ -1,10 +1,6 @@
-this is a main page
 
-<script>
 
-function test(){
-	alert(1);
-}
-
-</script>
-
+<?php
+$callback=htmlspecialchars($_GET['callback']);
+echo '<script>'.$callback.'();'.'</script>';
+?>
