@@ -2,6 +2,7 @@
 同源方法执行攻击demo
 
 危害：类似于xss
+
 利用方法：
 
 1.attacker 构造2个页面 main.html and step1.html
